@@ -1,14 +1,14 @@
-# ⚡ Nitro Vision — AI Food Nutrition Analyzer
+# ⚡ NutriVision — AI Food Nutrition Analyzer
 
-**Nitro Vision** is an AI-powered food analysis application that uses **Computer Vision and Machine Learning** to analyze food images and provide nutritional insights.
+**NutriVision** is an AI-powered food analysis application that uses **Computer Vision and Machine Learning** to analyze food images and provide nutritional insights.
 
-Simply **upload an image of your food**, and Nitro Vision analyzes the image to identify the food and provide relevant nutritional information such as **calories, protein, carbohydrates, fats, and other nutritional values**.
+Simply **upload an image of your food**, and NutriVision analyzes the image to identify the food and provide relevant nutritional information such as **calories, protein, carbohydrates, fats, and other nutritional values**.
 
 > 🥗 **Upload Food Image → Identify Food → Analyze Nutrition → Get Insights**
 
 ---
 
-## 🍎 What is Nitro Vision?
+## 🍎 What is NutriVision?
 
 Have you ever looked at a meal and wondered:
 
@@ -16,7 +16,7 @@ Have you ever looked at a meal and wondered:
 **“Isme protein kitna hai?”**
 **“Ye food nutritionally kaisa hai?”**
 
-Nitro Vision aims to make this information easier to access.
+NutriVision aims to make this information easier to access.
 
 Instead of manually searching for every food item, the user can simply provide a **food image**, and the application uses an AI-based vision pipeline to analyze it and generate nutritional information.
 
@@ -26,7 +26,7 @@ Instead of manually searching for every food item, the user can simply provide a
 
 ### 📸 Food Image Analysis
 
-Upload an image of a food item or meal and let the application analyze it.
+Upload an image containing a food item or meal and let the application analyze it.
 
 ### 🧠 AI-Based Food Recognition
 
@@ -34,7 +34,7 @@ The computer vision model analyzes visual features from the food image to determ
 
 ### 🥑 Nutritional Information
 
-After identifying the food, Nitro Vision provides nutritional insights such as:
+After identifying the food, NutriVision provides nutritional insights such as:
 
 * 🔥 Calories
 * 💪 Protein
@@ -50,7 +50,7 @@ The application follows a simple workflow:
 
 ---
 
-## 🔄 How Nitro Vision Works
+## 🔄 How NutriVision Works
 
 ```text
              📸 FOOD IMAGE
@@ -106,7 +106,7 @@ and predicts the food item/category.
 
 ### Step 4 — Nutrition Analysis
 
-Once the food is identified, Nitro Vision retrieves the corresponding nutritional information and presents it to the user.
+Once the food is identified, NutriVision retrieves the corresponding nutritional information and presents it to the user.
 
 ### Step 5 — Result
 
@@ -116,7 +116,7 @@ The user receives an easy-to-understand nutritional summary of the detected food
 
 ## 🤖 Machine Learning
 
-The core of Nitro Vision is its **computer vision model**, which is responsible for analyzing the uploaded food image.
+The core of NutriVision is its **computer vision model**, which is responsible for analyzing the uploaded food image.
 
 ### CNN — Convolutional Neural Network
 
@@ -162,7 +162,7 @@ In simple words:
 * **Python**
 * **OpenCV**
 * **Machine Learning / Deep Learning**
-* **CNN  
+* **CNN**
 * **NumPy**
 * **[Gradio / Streamlit / Flask — according to implementation]**
 * **Nutrition Dataset / Database**
@@ -198,7 +198,7 @@ The same pipeline can be used for different food items supported by the model an
 
 Getting nutritional information usually requires manually searching for a food item and then checking different nutritional sources.
 
-Nitro Vision explores a more convenient approach:
+NutriVision explores a more convenient approach:
 
 > **Can we use AI to go from a food image directly to useful nutritional information?**
 
@@ -206,7 +206,7 @@ The project combines **Computer Vision + Machine Learning + Nutrition Data** to 
 
 ---
 
-## 🌟 Why Nitro Vision?
+## 🌟 Why NutriVision?
 
 ### Traditional Approach
 
@@ -222,7 +222,7 @@ Find Nutrition Data
 Compare Information
 ```
 
-### Nitro Vision
+### NutriVision
 
 ```text
 📸 Upload Image
@@ -238,7 +238,7 @@ Compare Information
 
 ## 🚀 Future Improvements
 
-Nitro Vision can be extended with:
+NutriVision can be extended with:
 
 * 📸 Real-time camera-based food recognition
 * 🍱 Multiple food items in a single image
@@ -257,13 +257,13 @@ Nitro Vision can be extended with:
 
 Nutritional values can vary depending on factors such as **portion size, ingredients, preparation method, and food variety**.
 
-Therefore, the information provided by Nitro Vision should be treated as an **AI-generated nutritional estimate**, not as a medical or dietary diagnosis.
+Therefore, the information provided by NutriVision should be treated as an **AI-generated nutritional estimate**, not as a medical or dietary diagnosis.
 
 ---
 
 ## 💡 What I Learned
 
-While building Nitro Vision, I explored the practical implementation of:
+While building NutriVision, I explored the practical implementation of:
 
 * Computer Vision
 * Image preprocessing
@@ -282,6 +282,6 @@ While building Nitro Vision, I explored the practical implementation of:
 
 ---
 
-## ⭐ Show interest 
+## ⭐ Show interest
 
-If you find **Nitro Vision** interesting, consider giving the repository a ⭐ on GitHub!
+If you find **NutriVision** interesting, consider giving the repository a ⭐ on GitHub!
