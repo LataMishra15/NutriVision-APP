@@ -1,0 +1,7 @@
+gradio
+transformers
+torch
+Pillow
+requests
+pandas
+scikit-learn
